@@ -16,4 +16,4 @@ jobs:
       - name: Get IP address
         run: echo $(curl -sS https://api.ipify.org) > ip_address.txt
       - name: Use IP address
-        run: echo "The runner IP address ip is $(cat ip_address.txt)"
+        run: echo "The runner IP address is $(cat ip_address.txt)"
